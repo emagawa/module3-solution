@@ -51,17 +51,18 @@ body {
   border: 1px solid;
 }
 #nav-list: nth-child(3) {
-  border-bottom:0;
+  border-bottom:0
+
 }
 #nav-list li {
-  background:#ffffff;
   border-bottom:2px solid;
 }
 #nav-list li:nth-child(3) {
   border-bottom:0;
 }
 #nav-list li a {
-  color:#000000;
+  color: #000000;
+	background-color: #ffc0cb;
   font-weight: 600;
   line-height: 10px;
 }

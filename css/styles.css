@@ -4,20 +4,20 @@
 
 * {
 	box-sizing: border-box;
-	font-weight: bold;
 	font-family: 'Balsamiq Sans', cursive;
 }
 body {
-	font-size: 16px;
+	font-size: 18px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 3px solid #000000; !important;
+  border: 3px solid #000000;
 }
 #header-nav {
-  background-color: #999999; /* medium Light Gray */
-  border:3px solid #000000; /* Black color */
+  background-color: #999999; /* medium Light Gray color hexa code */
+  border-top:3px solid #000000;
+	border-bottom: 3px solid #000000;
   border-radius: 0;
-	padding: 5px;
+	padding-top: 5px;
 }
 .navbar-brand {
   margin-top: 10px;
@@ -51,9 +51,8 @@ body {
 #nav-list{
   border: 1px solid;
 }
-#nav-list: nth-child(3) {
-  border-bottom:0
-
+#nav-list:nth-child(3) {
+  border-bottom:0;
 }
 #nav-list li {
   border-bottom:2px solid;
@@ -95,12 +94,26 @@ body {
   font-size: 1.0em;
   padding: 5px 5px;
 }
+.chicken {
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.beef {
+  color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.sushi {
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
-
 /********** for small devices only **********/
 @media (max-width:767px) {
   .navbar-brand {
